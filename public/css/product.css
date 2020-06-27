@@ -1,0 +1,141 @@
+.bg-black{
+  background-color: black;
+}
+.text-raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.text-quicksand{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+}
+.padding-top-ten{
+  padding-top: 10px;
+}
+.top-bar-right a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-bar-left p,img{
+  padding-top: 2px;
+}
+.top-bar{
+  background-color: #1A1A1A;
+  height: 30px;
+  color: white;
+}
+.product-top{
+	background-image: url('../images/contact.jpg');
+	height: 60vh;
+	background-size: cover;
+  position: relative;
+  text-align: center;
+  background-position: 20%;
+}
+.product-top h5{
+	position: absolute;
+	bottom: -8px;
+  background-color: rgba(0,0,0,0.75);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white!important;
+}
+.product-dropdown{
+  background-color: black!important;
+}
+.product-dropdown a:hover{
+  color: black!important;
+}
+.product-hr{
+  height: 2px;
+  background-color: #99cc33;
+}
+.col-md-3{
+  margin-top: 30px;
+}
+#footer{
+  background-image: url('../images/footer.jpg');  background-size: cover;
+  height: 22em;
+  color: white;
+}
+.footer-top-margin{
+  padding-top: 30px; 
+  margin-top: 80px;
+}
+.padding-top-twenty{
+  padding-top: 20px;
+}
+.footer-cp-link a{
+  text-decoration: none;
+  color: white;
+}
+.footer-social-media a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+hr{
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+.policies a{
+  text-decoration: none;
+  color: white;
+}
+.policies a:hover{
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 768px){
+   #footer{
+    height: 30em;
+  }
+  .policies{
+    margin-top: 20px;
+  }
+  .collapse{
+  margin-left: -80px!important;
+}
+}
+
+
+.projects-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
